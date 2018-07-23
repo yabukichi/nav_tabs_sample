@@ -1,0 +1,77 @@
+.row {
+	margin: 0;
+}
+
+section .weekly img{
+	width: 100%;
+	height: auto;
+    padding-bottom: 5px;
+}
+
+section .table .day{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	width: 5%;
+	text-align: center;
+	padding: 0.5rem 1rem;
+}
+
+section .table .time{
+	width: 15%;
+    padding-left: 1rem;
+}
+
+section .weekly .border_brown {
+	padding: .5rem;
+    border-bottom: 5px solid brown;
+}
+
+section  .weekly .nav-tabs .nav-link.active{
+	color: #fff!important;
+    background-color: brown!important;
+}
+
+section .table p{
+	margin: 0;
+}
+
+section .weekly .nav-tabs {
+	border: none;
+}
+
+section .nav-tabs .nav-link{
+	border-radius: unset;
+    border: none;
+}
+
+
+@media (max-width: 992px) {
+	.navbar-light .navbar-toggler{
+		background: whitesmoke;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 576px) {
+	.weekly .nav-tabs a{
+		font-size: 0.8rem;
+	}
+
+	.weekly .nav-link{
+		padding: .2rem .5rem;
+	}
+	.weekly h2{
+		font-size: 1.5rem;
+	}
+	.weekly img{
+		height: 1.5rem;
+	}
+	section .table .day {
+		font-size: .8rem;
+	}
+	section .table p{
+		font-size: .8rem;
+	}
+}
+
